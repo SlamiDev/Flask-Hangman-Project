@@ -1,0 +1,61 @@
+{% extends 'global.html' %}
+
+
+
+
+
+{% block head %} 
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="topbar"> 
+    <a href={{ url_for("home") }}> Home </a>
+    <a class="selected" href={{ url_for("game") }}> Game </a>
+    <a href={{ url_for("wordList") }}> Word List</a>
+</div>
+
+
+<div class="container">
+    <h1> HANGMAN </h1>
+    <p class="text-important"> Guess the word </p>
+
+    <div class="characters">
+        {% for char in range(word) %}
+
+        <span class="letter">_</span>
+
+        {% endfor %}
+    </div>
+
+    <div class="message">
+        <p id="message" class="text-important">Select a character</p>
+    </div>
+
+    <div class="hearts">
+        {% for i in range(lifeCount) %}
+        <img class="heart" src="{{ url_for('static', filename='images/heart.png') }}">
+        {% endfor %}
+    </div>
+
+    <button class="reloadButton" type="button" onclick="window.location.reload()">New Game</button>
+
+    <div class="input">
+        {% for char in allowedChars %}
+        <button class="button" type="button" data-char="{{char}}">{{char}}</button>
+        {% endfor %}
+    </div>
+</div>
+
+<script type="module">
+    import { gameHandler } from "{{ url_for('static', filename='js/common.mjs') }}";
+
+    gameHandler();
+</script>
+
+{% endblock %}

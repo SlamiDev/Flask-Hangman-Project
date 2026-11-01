@@ -1,0 +1,1325 @@
+Central Processing Unit
+Control Unit
+Arithmetic Logic Unit
+Register
+Program Counter
+Memory Address Register
+Memory Data Register
+Current Instruction Register
+Accumulator
+Status Register
+Fetch-Decode-Execute Cycle
+Clock Speed
+Cache
+Core
+Multi-core Processor
+Von Neumann Architecture
+Harvard Architecture
+Address Bus
+Data Bus
+Control Bus
+Bus Width
+Instruction Set
+Pipelining
+Branch Prediction
+Superscalar Architecture
+Out-of-order Execution
+Speculative Execution
+Hyper-threading
+Microarchitecture
+Interrupt
+Interrupt Service Routine
+Interrupt Priority
+Embedded System
+Microcontroller
+Graphics Processing Unit
+SIMD
+MIMD
+Parallel Processing
+Co-processor
+Motherboard
+Input Device
+Output Device
+Peripheral
+Sensor
+Actuator
+Barcode Reader
+QR Code
+RFID
+Touchscreen
+Capacitive Screen
+Resistive Screen
+LCD
+LED
+Laser Printer
+Inkjet Printer
+3D Printer
+RISC
+CISC
+Bit
+Primary Storage
+Secondary Storage
+RAM
+ROM
+Volatile Memory
+Non-volatile Memory
+Virtual Memory
+Paging
+Segmentation
+Page Table
+Page Fault
+Thrashing
+Flash Memory
+Solid State Drive
+Hard Disk Drive
+Optical Disc
+Magnetic Storage
+Cloud Storage
+Capacity
+Access Speed
+Durability
+Portability
+Reliability
+Kilobyte
+Megabyte
+Gigabyte
+Terabyte
+Petabyte
+Nibble
+Byte
+Word
+Dynamic RAM
+Static RAM
+EEPROM
+Flash Translation Layer
+Wear Levelling
+Memory Hierarchy
+Cache Hit
+Cache Miss
+Locality of Reference
+Direct Mapped Cache
+Associative Cache
+Write-through
+Write-back
+RAID
+RAID 0
+RAID 1
+RAID 5
+Disk Defragmentation
+File System
+Memory Leak
+Garbage Collection
+Heap
+Stack
+Network
+LAN
+WAN
+PAN
+MAN
+Client-server
+Peer-to-peer
+Server
+Client
+Router
+Switch
+Hub
+Wireless Access Point
+Network Interface Card
+Modem
+Gateway
+Bridge
+Repeater
+Transmission Media
+Ethernet
+Fibre Optic Cable
+Copper Cable
+Twisted Pair
+Coaxial Cable
+Wi-Fi
+Bluetooth
+Bandwidth
+Latency
+Throughput
+Bit Rate
+Baud Rate
+Jitter
+Packet Loss
+Star Topology
+Bus Topology
+Ring Topology
+Mesh Topology
+Hybrid Topology
+Protocol
+TCP
+IP
+TCP/IP Stack
+UDP
+HTTP
+HTTPS
+FTP
+SMTP
+POP3
+IMAP
+SSH
+Telnet
+DNS
+DHCP
+ARP
+ICMP
+NAT
+Port Number
+Socket
+IP Address
+IPv4
+IPv6
+MAC Address
+Subnet
+Subnet Mask
+CIDR Notation
+Default Gateway
+Domain Name
+URL
+Packet
+Packet Switching
+Circuit Switching
+Packet Header
+Payload
+Time To Live
+Hop
+Routing Table
+Routing Algorithm
+Dijkstra Routing
+Border Gateway Protocol
+OSI Model
+Application Layer
+Transport Layer
+Network Layer
+Link Layer
+Physical Layer
+Encapsulation
+Handshake
+Three-way Handshake
+Acknowledgement
+Sequence Number
+Flow Control
+Congestion Control
+Error Detection
+Parity Bit
+Parity Byte
+Checksum
+Check Digit
+Cyclic Redundancy Check
+Echo Check
+Majority Voting
+Forward Error Correction
+Automatic Repeat Request
+Serial Transmission
+Parallel Transmission
+Simplex
+Half Duplex
+Full Duplex
+Synchronous Transmission
+Asynchronous Transmission
+Start Bit
+Stop Bit
+Virtual Network
+VPN
+VLAN
+Cloud Computing
+Infrastructure as a Service
+Platform as a Service
+Software as a Service
+Virtualisation
+Hypervisor
+Virtual Machine
+Container
+Content Delivery Network
+Load Balancer
+Thin Client
+Thick Client
+Internet
+World Wide Web
+Intranet
+Extranet
+Internet Service Provider
+Cybersecurity
+Malware
+Virus
+Worm
+Trojan
+Ransomware
+Spyware
+Adware
+Rootkit
+Keylogger
+Botnet
+Phishing
+Spear Phishing
+Pharming
+Vishing
+Smishing
+Social Engineering
+Shoulder Surfing
+Blagging
+Brute Force Attack
+Dictionary Attack
+Denial of Service
+Distributed Denial of Service
+Man-in-the-middle Attack
+SQL Injection
+Cross-site Scripting
+Cross-site Request Forgery
+Buffer Overflow
+Zero-day Exploit
+Penetration Testing
+Vulnerability
+Exploit
+Firewall
+Packet Filtering
+Proxy Server
+Anti-malware
+Antivirus
+Authentication
+Authorisation
+Accounting
+Biometrics
+Fingerprint Scanner
+Password
+Strong Password
+Two-factor Authentication
+Multi-factor Authentication
+CAPTCHA
+Access Rights
+User Access Levels
+Principle of Least Privilege
+Encryption
+Decryption
+Plaintext
+Ciphertext
+Cipher
+Caesar Cipher
+Vernam Cipher
+One-time Pad
+Symmetric Encryption
+Asymmetric Encryption
+Public Key
+Private Key
+Key Exchange
+Diffie-Hellman
+RSA
+AES
+Hashing
+Hash Function
+Collision
+Salting
+Digital Signature
+Digital Certificate
+Certificate Authority
+SSL
+TLS
+Public Key Infrastructure
+Non-repudiation
+Data Integrity
+Confidentiality
+Availability
+Backup
+Disaster Recovery
+Archiving
+Incremental Backup
+Differential Backup
+Full Backup
+Audit Trail
+Network Forensics
+Honeypot
+Intrusion Detection System
+Quantum Cryptography
+Binary
+Denary
+Decimal
+Hexadecimal
+Octal
+Base
+Place Value
+Most Significant Bit
+Least Significant Bit
+Binary Addition
+Binary Shift
+Logical Shift
+Arithmetic Shift
+Overflow
+Underflow
+Sign and Magnitude
+Two's Complement
+One's Complement
+Fixed Point
+Floating Point
+Mantissa
+Exponent
+Normalisation
+Precision
+Rounding Error
+Truncation
+Absolute Error
+Relative Error
+IEEE 754
+Character
+Character Set
+ASCII
+Extended ASCII
+Unicode
+UTF-8
+UTF-16
+Code Point
+Pixel
+Resolution
+Colour Depth
+Bitmap
+Vector Graphic
+Metadata
+Image File Size
+Sample
+Sampling Rate
+Sample Resolution
+Bit Depth
+Analogue
+Digital
+Analogue to Digital Converter
+Digital to Analogue Converter
+Nyquist Theorem
+Aliasing
+MIDI
+Compression
+Lossy Compression
+Lossless Compression
+Run Length Encoding
+Huffman Coding
+Huffman Tree
+Dictionary Coding
+Lempel-Ziv
+JPEG
+PNG
+GIF
+MP3
+WAV
+Temporal Compression
+Spatial Compression
+Entropy
+Data Type
+Binary Coded Decimal
+Gray Code
+Bitwise Operation
+Bit Mask
+Endianness
+Big Endian
+Little Endian
+Logic Gate
+AND Gate
+OR Gate
+NOT Gate
+NAND Gate
+NOR Gate
+XOR Gate
+XNOR Gate
+Truth Table
+Boolean Expression
+Boolean Algebra
+De Morgan's Laws
+Commutative Law
+Associative Law
+Distributive Law
+Absorption Law
+Identity Law
+Karnaugh Map
+Sum of Products
+Product of Sums
+Logic Circuit
+Half Adder
+Full Adder
+Ripple Carry Adder
+Carry Look-ahead
+Flip-flop
+D-type Flip-flop
+Latch
+Multiplexer
+Demultiplexer
+Decoder
+Encoder
+Combinational Logic
+Sequential Logic
+Clock Signal
+Transistor
+Integrated Circuit
+Propagation Delay
+Simplification
+Don't Care Condition
+Algorithm
+Pseudocode
+Flowchart
+Decomposition
+Abstraction
+Pattern Recognition
+Algorithmic Thinking
+Computational Thinking
+Sequence
+Selection
+Iteration
+Linear Search
+Binary Search
+Binary Search Tree Search
+Bubble Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Selection Sort
+Heap Sort
+Radix Sort
+Counting Sort
+Shell Sort
+Stable Sort
+In-place Sort
+Pivot
+Partition
+Divide and Conquer
+Dijkstra's Algorithm
+A* Algorithm
+Heuristic
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Prim's Algorithm
+Kruskal's Algorithm
+Minimum Spanning Tree
+Shortest Path
+Depth-first Search
+Breadth-first Search
+Backtracking
+Brute Force
+Greedy Algorithm
+Dynamic Programming
+Memoisation
+Tabulation
+Recursion
+Base Case
+Recursive Case
+Tail Recursion
+Stack Overflow
+Big O Notation
+Time Complexity
+Space Complexity
+Constant Time
+Logarithmic Time
+Linear Time
+Polynomial Time
+Exponential Time
+Factorial Time
+Best Case
+Worst Case
+Average Case
+Amortised Analysis
+Asymptotic Analysis
+Big Omega Notation
+Big Theta Notation
+Trace Table
+Dry Run
+Efficiency
+Optimisation
+Tractable Problem
+Intractable Problem
+Travelling Salesman Problem
+Knapsack Problem
+Graph Colouring
+Hash Collision Resolution
+Linear Probing
+Chaining
+Rehashing
+Load Factor
+Tree Traversal
+Pre-order Traversal
+In-order Traversal
+Post-order Traversal
+Level-order Traversal
+Topological Sort
+Variable
+Constant
+Assignment
+Integer
+Real
+Float
+Boolean
+String
+Char
+Casting
+Type Coercion
+Strong Typing
+Weak Typing
+Static Typing
+Dynamic Typing
+Identifier
+Keyword
+Operator
+Arithmetic Operator
+Comparison Operator
+Logical Operator
+Modulus
+Integer Division
+Exponentiation
+Concatenation
+Substring
+String Handling
+String Slicing
+Length Function
+ASCII Conversion
+Input
+Output
+Condition
+If Statement
+Else Clause
+Else If
+Switch Case
+Nested Selection
+For Loop
+While Loop
+Do While Loop
+Repeat Until Loop
+Count-controlled Iteration
+Condition-controlled Iteration
+Nested Iteration
+Infinite Loop
+Loop Counter
+Break Statement
+Continue Statement
+Subroutine
+Procedure
+Function
+Parameter
+Argument
+Return Value
+Call Stack
+Stack Frame
+Local Variable
+Global Variable
+Scope
+Lifetime
+Pass by Value
+Pass by Reference
+Default Parameter
+Named Argument
+Overloading
+Library
+Module
+Package
+API
+Built-in Function
+Random Number Generation
+Pseudorandom
+File Handling
+Open File
+Read File
+Write File
+Append
+Close File
+End of File
+Text File
+Binary File
+Serialisation
+Exception
+Exception Handling
+Try Catch
+Raise
+Assertion
+Comment
+Indentation
+Syntax
+Syntax Error
+Logic Error
+Runtime Error
+Semantic Error
+Debugging
+Breakpoint
+Watch Window
+Stepping
+Stub
+Defensive Design
+Input Validation
+Sanitisation
+Range Check
+Length Check
+Type Check
+Presence Check
+Format Check
+Lookup Check
+Verification
+Validation
+Double Entry
+Proofreading
+Authentication Routine
+Maintainability
+Readability
+Naming Convention
+Modularity
+Reusability
+Coupling
+Cohesion
+Refactoring
+Boilerplate
+Syntactic Sugar
+Lambda Expression
+Callback
+Closure
+Generator
+Iterator
+Regular Expression
+Wildcard
+Data Structure
+Array
+One-dimensional Array
+Two-dimensional Array
+Three-dimensional Array
+Index
+Element
+Zero-indexed
+Static Data Structure
+Dynamic Data Structure
+List
+Linked List
+Singly Linked List
+Doubly Linked List
+Circular Linked List
+Node
+Pointer
+Reference
+Null Pointer
+Head
+Tail
+Record
+Field
+Tuple
+Dictionary
+Key-value Pair
+Hash Table
+Hash Map
+Set
+Stack Data Structure
+Push
+Pop
+Peek
+LIFO
+Stack Pointer
+Queue
+Enqueue
+Dequeue
+FIFO
+Circular Queue
+Priority Queue
+Deque
+Front Pointer
+Rear Pointer
+Tree
+Root Node
+Leaf Node
+Parent Node
+Child Node
+Subtree
+Edge
+Depth
+Height
+Binary Tree
+Binary Search Tree
+Balanced Tree
+AVL Tree
+Red-black Tree
+B-tree
+Trie
+Heap Data Structure
+Min Heap
+Max Heap
+Graph
+Vertex
+Directed Graph
+Undirected Graph
+Weighted Graph
+Adjacency Matrix
+Adjacency List
+Cycle
+Connected Graph
+Acyclic Graph
+Directed Acyclic Graph
+Abstract Data Type
+Vector
+Matrix
+Sparse Array
+Bloom Filter
+Skip List
+Union-Find
+Object-oriented Programming
+Class
+Object
+Instance
+Instantiation
+Attribute
+Method
+Constructor
+Destructor
+Encapsulation OOP
+Inheritance
+Polymorphism
+Abstraction OOP
+Superclass
+Subclass
+Base Class
+Derived Class
+Overriding
+Method Overloading
+Abstract Class
+Interface
+Virtual Method
+Multiple Inheritance
+Composition
+Aggregation
+Association
+Public
+Private
+Protected
+Access Modifier
+Getter
+Setter
+Static Method
+Static Variable
+Class Diagram
+UML
+Singleton Pattern
+Factory Pattern
+Observer Pattern
+Design Pattern
+Dependency Injection
+Message Passing
+Self Reference
+Late Binding
+Object Identity
+Procedural Programming
+Imperative Programming
+Declarative Programming
+Functional Programming
+Logic Programming
+Event-driven Programming
+Visual Programming
+Low-level Language
+High-level Language
+Machine Code
+Assembly Language
+Mnemonic
+Opcode
+Operand
+Addressing Mode
+Immediate Addressing
+Direct Addressing
+Indirect Addressing
+Indexed Addressing
+Label
+Little Man Computer
+Pure Function
+Side Effect
+Immutability
+First-class Function
+Higher-order Function
+Map Function
+Filter Function
+Fold Function
+Function Composition
+Currying
+Partial Application
+Referential Transparency
+Lazy Evaluation
+Head and Tail
+Fact
+Rule
+Predicate
+Unification
+Prolog
+Haskell
+Event Handler
+Event Loop
+Compiler
+Interpreter
+Assembler
+Source Code
+Object Code
+Executable
+Translator
+Bytecode
+Just-in-time Compilation
+Cross Compiler
+Lexical Analysis
+Syntax Analysis
+Semantic Analysis
+Code Generation
+Code Optimisation
+Lexer
+Parser
+Token
+Symbol Table
+Abstract Syntax Tree
+Parse Tree
+Backus-Naur Form
+Syntax Diagram
+Context-free Grammar
+Terminal Symbol
+Non-terminal Symbol
+Production Rule
+Reverse Polish Notation
+Infix Notation
+Postfix Notation
+Prefix Notation
+Shunting Yard Algorithm
+Linker
+Loader
+Dead Code Elimination
+Operating System
+Kernel
+Utility Software
+Application Software
+System Software
+Firmware
+BIOS
+Bootstrap Loader
+Device Driver
+User Interface
+Graphical User Interface
+Command Line Interface
+Menu Interface
+Natural Language Interface
+Memory Management
+Process Management
+Process
+Thread
+Multitasking
+Multi-user
+Multithreading
+Scheduling
+Scheduler
+Round Robin
+First Come First Served
+Shortest Job First
+Shortest Remaining Time
+Multilevel Feedback Queue
+Pre-emptive Scheduling
+Non-pre-emptive Scheduling
+Time Slice
+Context Switch
+Process Control Block
+Ready State
+Running State
+Blocked State
+Deadlock
+Livelock
+Starvation
+Race Condition
+Mutual Exclusion
+Semaphore
+Mutex
+Critical Section
+Monitor
+Inter-process Communication
+Spooling
+Buffer
+Buffering
+Batch Processing
+Real-time Operating System
+Distributed Operating System
+Embedded Operating System
+Mobile Operating System
+Disk Scheduling
+File Allocation Table
+Directory
+Folder
+File Permission
+Defragmentation
+Disk Formatting
+Task Manager
+Open Source
+Proprietary Software
+Freeware
+Shareware
+Software Licence
+Software Update
+Patch
+Compatibility
+Database
+Table
+Record DB
+Field DB
+Primary Key
+Foreign Key
+Composite Key
+Candidate Key
+Secondary Key
+Flat File Database
+Relational Database
+Relationship
+One-to-one
+One-to-many
+Many-to-many
+Entity
+Entity Relationship Diagram
+Attribute DB
+Normalisation DB
+First Normal Form
+Second Normal Form
+Third Normal Form
+Boyce-Codd Normal Form
+Denormalisation
+Data Redundancy
+Data Inconsistency
+Referential Integrity
+Entity Integrity
+Data Dictionary
+Database Management System
+SQL
+SELECT
+FROM
+WHERE
+INSERT INTO
+UPDATE
+DELETE
+CREATE TABLE
+ALTER TABLE
+DROP TABLE
+ORDER BY
+GROUP BY
+HAVING
+LIKE
+JOIN
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+OUTER JOIN
+Aggregate Function
+COUNT
+SUM
+AVG
+MAX
+MIN
+Wildcard Character
+Subquery
+View
+Index DB
+Query
+Query By Example
+Transaction
+ACID
+Atomicity
+Consistency
+Isolation
+Durability DB
+Commit
+Rollback
+Record Locking
+Deadlock DB
+Concurrency Control
+Optimistic Locking
+Pessimistic Locking
+Timestamp Ordering
+NoSQL
+Document Store
+Graph Database
+Column Store
+Key-value Store
+Data Warehouse
+Data Mining
+Data Mart
+ETL
+Distributed Database
+Replication
+Sharding
+CAP Theorem
+Software Development Lifecycle
+Analysis
+Design
+Implementation
+Testing
+Evaluation
+Maintenance
+Waterfall Model
+Agile
+Scrum
+Sprint
+Kanban
+Extreme Programming
+Pair Programming
+Spiral Model
+Rapid Application Development
+Prototyping
+Iterative Development
+Incremental Development
+Requirements Specification
+Functional Requirement
+Non-functional Requirement
+User Story
+Stakeholder
+Feasibility Study
+Success Criteria
+Structure Diagram
+Hierarchy Chart
+Data Flow Diagram
+Wireframe
+Storyboard
+Unit Testing
+Integration Testing
+System Testing
+Acceptance Testing
+Alpha Testing
+Beta Testing
+Regression Testing
+Black Box Testing
+White Box Testing
+Test Plan
+Test Data
+Normal Data
+Boundary Data
+Erroneous Data
+Invalid Data
+Expected Outcome
+Test Log
+Iterative Testing
+Final Testing
+Test-driven Development
+Continuous Integration
+Continuous Delivery
+DevOps
+Version Control
+Repository
+Branch
+Merge
+Commit Message
+Pull Request
+IDE
+Code Editor
+Error Diagnostics
+Run-time Environment
+Technical Debt
+Legacy System
+Documentation
+User Documentation
+Technical Documentation
+Code Review
+Walkthrough
+Usability
+Accessibility
+Robustness
+Scalability
+Portability Software
+Interoperability
+Project Management
+Gantt Chart
+Critical Path
+PERT Chart
+Risk Assessment
+HTML
+CSS
+JavaScript
+Tag
+HTML Element
+HTML Attribute
+Hyperlink
+Web Page
+Website
+Web Browser
+Web Server
+Search Engine
+Search Engine Optimisation
+Web Crawler
+PageRank
+Index Search
+Cookie
+Session
+Cache Web
+Client-side Processing
+Server-side Processing
+Document Object Model
+AJAX
+JSON
+XML
+REST
+RESTful API
+Web Service
+GET Request
+POST Request
+HTTP Status Code
+HTTP Header
+Cascading Style Sheet
+Selector
+Responsive Design
+Framework
+Content Management System
+Web Application
+Progressive Web App
+WebSocket
+Domain Name System
+Web Hosting
+Uniform Resource Locator
+Semantic Web
+Web 2.0
+Social Media
+Streaming
+Net Neutrality
+Dark Web
+Deep Web
+Data Protection Act
+GDPR
+Computer Misuse Act
+Copyright Designs and Patents Act
+Freedom of Information Act
+Regulation of Investigatory Powers Act
+Data Subject
+Data Controller
+Data Processor
+Personal Data
+Sensitive Data
+Consent
+Right to be Forgotten
+Privacy
+Surveillance
+Censorship
+Digital Divide
+Digital Footprint
+Ethics
+Environmental Impact
+E-waste
+Carbon Footprint
+Energy Consumption
+Sustainability
+Cultural Impact
+Intellectual Property
+Licensing
+Creative Commons
+Piracy
+Plagiarism
+Whistleblowing
+Algorithmic Bias
+Automated Decision Making
+Anonymisation
+Pseudonymisation
+Data Breach
+Professional Code of Conduct
+Stakeholder Impact
+Automation
+Digital Inclusion
+Artificial Intelligence
+Machine Learning
+Deep Learning
+Neural Network
+Artificial Neuron
+Activation Function
+Backpropagation
+Gradient Descent
+Supervised Learning
+Unsupervised Learning
+Reinforcement Learning
+Training Data
+Test Set
+Overfitting
+Underfitting
+Classification
+Regression
+Clustering
+K-means
+K-nearest Neighbours
+Decision Tree
+Random Forest
+Support Vector Machine
+Feature
+Labelled Data
+Natural Language Processing
+Computer Vision
+Speech Recognition
+Expert System
+Knowledge Base
+Inference Engine
+Turing Test
+Chatbot
+Large Language Model
+Transformer Model
+Generative AI
+Big Data
+Volume
+Velocity
+Variety
+Data Analytics
+Data Visualisation
+MapReduce
+Hadoop
+Internet of Things
+Smart Device
+Robotics
+Autonomous Vehicle
+Quantum Computing
+Qubit
+Superposition
+Entanglement
+Blockchain
+Cryptocurrency
+Distributed Ledger
+Smart Contract
+Turing Machine
+Halting Problem
+Computability
+Decidability
+Undecidable Problem
+Universal Turing Machine
+Finite State Machine
+Finite State Automaton
+State Transition Diagram
+State Transition Table
+Initial State
+Accepting State
+Transition
+Mealy Machine
+Moore Machine
+Deterministic Automaton
+Non-deterministic Automaton
+Regular Language
+Regular Expression Theory
+Pushdown Automaton
+Chomsky Hierarchy
+Set Theory
+Subset
+Union
+Intersection
+Complement
+Cartesian Product
+Power Set
+Cardinality
+Countable Set
+Bijection
+Function Theory
+Injective Function
+Surjective Function
+Big-O Class
+Complexity Class
+P Class
+NP Class
+NP-complete
+NP-hard
+P versus NP
+Church-Turing Thesis
+Lambda Calculus
+Combinatorial Explosion
+Approximation Algorithm
+Randomised Algorithm
+Monte Carlo Method
+Simulation
+Modelling
+Stochastic
+Deterministic
+Non-deterministic
+Parallelism
+Concurrency
+Amdahl's Law
+Flynn's Taxonomy
+Distributed Computing
+Grid Computing
+Cluster
+Fault Tolerance
+Redundancy
+Consensus Algorithm
+Sustainable Computing
+Green IT

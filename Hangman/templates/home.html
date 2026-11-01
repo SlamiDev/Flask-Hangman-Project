@@ -1,0 +1,43 @@
+{% extends 'global.html' %}
+
+
+
+
+
+{% block head %} 
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="topbar"> 
+    <a class="selected" href={{ url_for("home") }}> Home </a>
+    <a href={{ url_for("game") }}> Game</a>
+    <a href={{ url_for("wordList") }}> Word List</a>
+</div>
+
+
+<button type="button" class="dropdownControl"> Information <i class="material-icons"></i> </button>
+<div class="dropdownControlContent left-align">
+    <p> Welcome to hangman - a project created by Sam using:
+    <br>
+    <br> ㅤㅤ• Flask Python library,
+    <br> ㅤㅤ• Javascript, 
+    <br> ㅤㅤ• HTML,
+    <br> ㅤㅤ• CSS.
+    <br>
+    <br> Select to play at the top - have fun! :)
+    </p>
+</div>
+
+<script type="module">
+    import { createDropDown } from "{{ url_for('static', filename='js/common.mjs') }}";
+
+    createDropDown();
+</script>
+
+{% endblock %}

@@ -1,0 +1,325 @@
+/* ---------- FONTS ---------- */
+
+@font-face {
+    font-family: "Source Sans Regular";
+    src: url("../fonts/SourceSans/Default/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Semi Bold";
+    src: url("../fonts/SourceSans/Default/Semibold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Bold";
+    src: url("../fonts/SourceSans/Default/Bold.ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Black";
+    src: url("../fonts/SourceSans/Default/Black.ttf");
+}
+
+
+:root {
+    /* ---------- COLORS ---------- */
+    --topbar-color: #1e2431;
+    --primary-color: #166d00;
+    --background-color: #0e1117;
+    --text-color: #FFFFFF;
+    --primary-text-color: #f7fff2ea;
+    --button-color: #092b00;
+    --button-hover-color: #0b3500;
+    --expander-content-color: #1a202b;
+    --main-border-color: #ffffff50;
+    --game-button-color: #ffffff0e;
+    --game-button-hover-color: #ffffff02;
+    --game-button-disabled-color: #ffffff00;
+
+    /* ---------- TEXT ---------- */
+    --text-align: center;
+    --expander-text-align: left;
+    --font-family: "Source Sans Regular";
+    --topbar-selected-font-family: "Source Sans Bold";
+    --topbar-deselected-font-family: "Source Sans Semi Bold";
+    --expander-font-family: "Source Sans Semi Bold";
+    --important-font-family: "Source Sans Semi Bold";
+    --title-font-family: "Source Sans Bold";
+    --game-button-font-family: "Source Sans Black";
+    --text-size: 1rem;
+    --text-size-medium: 1.25rem;
+    --text-size-large: 1.5rem;
+    --title-text-size: 2.5rem;
+
+    /* ---------- BORDERS & PADDING ---------- */
+    --topbar-border-radius: 10px;
+    --topbar-padding: 15px 50px;
+    --topbar-margin-bottom: 5rem;
+    --expander-padding: 14px 20px;
+    --expander-border-radius: 10px;
+    --expander-open-border-radius: 0px;
+    --container-padding: var(--text-size-medium);
+    --title-padding-bottom: 5px;
+    --title-border-size: 1px;
+    --main-border-size: 1px;
+    --letter-border-size: 2px;
+    --letter-border-radius: 6px;
+    --letter-margin: 10px;
+    --game-button-padding: 20px;
+    --game-button-border-radius: 10px;
+    --game-button-margin: 10px;
+    --heart-margin: 10px;
+    --input-margin: 100px;
+
+    /* ---------- POINTERS & ICONS ---------- */
+    --expander-cursor: pointer;
+    --expander-closed-icon: "keyboard_arrow_right";
+    --expander-opened-icon: "keyboard_arrow_down";
+    --expander-main-icon: "info";
+    --game-button-cursor: pointer;
+    --game-button-disabled-cursor: not-allowed;
+
+    /* ---------- SIZING ---------- */
+    --topbar-width: 100%;
+    --container-width: 100%;
+    --button-width: 25%;
+    --letter-size: 50px;
+    --game-button-width: 80px;
+    --game-button-height: 60px;
+    --game-button-hover-width: 88px;
+    --game-button-hover-height: 66px;
+    --reload-button-width: 350px;
+    --reload-button-height: 60px;
+    --reload-button-hover-width: 300px;
+    --reload-button-hover-height: 70px;
+    --input-width: 80%;
+    --expander-closed-max-height: 0;
+
+    /* ---------- TRANSITIONS ---------- */
+    --expander-transition: max-height 0.2s ease-in-out;
+    --game-button-transition: 200ms ease-in-out;
+}
+
+
+/* ---------- GLOBAL ---------- */
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+* {
+    font-family: var(--font-family);
+    text-align: var(--text-align);
+}
+
+h1 {
+    font-family: var(--title-font-family);
+    padding-bottom: var(--title-padding-bottom);
+    border-bottom: solid var(--title-border-size) var(--primary-color);
+    color: var(--primary-text-color);
+    font-size: var(--title-text-size);
+}
+
+.container {
+    padding: var(--container-padding);
+    width: var(--container-width);
+    border: solid var(--main-border-color) var(--main-border-size);
+    border-radius: var(--expander-border-radius);
+}
+
+.text-important {
+    font-family: var(--important-font-family);
+    font-size: var(--text-size-medium);
+}
+
+
+/* ---------- TOPBAR ---------- */
+
+.topbar {
+    color: var(--text-color);
+    background-color: var(--topbar-color);
+    border-radius: var(--topbar-border-radius);
+    overflow: hidden;
+    margin-bottom: var(--topbar-margin-bottom);
+    width: var(--topbar-width);
+}
+
+.topbar a {
+    font-family: var(--topbar-deselected-font-family);
+    float: left;
+    padding: var(--topbar-padding);
+    color: var(--text-color);
+    font-size: var(--text-size-large);
+    border-radius: var(--topbar-border-radius);
+    text-decoration: none;
+}
+
+.topbar a.selected {
+    font-family: var(--topbar-selected-font-family);
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    font-size: var(--text-size-large);
+    text-decoration: none;
+}
+
+
+/* ---------- DROPDOWN ---------- */
+
+button.dropdownControl {
+    overflow: hidden;
+    cursor: var(--expander-cursor);
+    text-align: var(--expander-text-align);
+    padding: var(--expander-padding);
+    font-family: var(--expander-font-family);
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: solid var(--main-border-color) var(--main-border-size);
+    width: var(--button-width);
+    border-radius: var(--expander-border-radius);
+    font-size: var(--text-size-medium);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+button.dropdownControl.open {
+    border-bottom-left-radius: var(--expander-open-border-radius);
+    border-bottom-right-radius: var(--expander-open-border-radius);
+    border-bottom: none;
+}
+
+button.dropdownControl:hover {
+    background-color: var(--button-hover-color);
+}
+
+button.dropdownControl i::after {
+    content: var(--expander-main-icon);
+}
+
+button.dropdownControl:hover i::after {
+    content: var(--expander-closed-icon);
+}
+
+button.dropdownControl.open:hover i::after {
+    content: var(--expander-opened-icon);
+}
+
+.dropdownControlContent {
+    max-height: var(--expander-closed-max-height);
+    overflow: hidden;
+    transition: var(--expander-transition);
+    background-color: var(--expander-content-color);
+    width: var(--button-width);
+    border-bottom-left-radius: var(--expander-border-radius);
+    border-bottom-right-radius: var(--expander-border-radius);
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.dropdownControlContent.open {
+    border: solid var(--main-border-color) var(--main-border-size);
+    border-top: none;
+}
+
+
+/* ---------- GAME ---------- */
+
+.characters {
+    padding: var(--container-padding);
+    width: fit-content;
+    border: solid var(--main-border-color) var(--main-border-size);
+    border-radius: var(--expander-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: var(--text-size-large);
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.left-align * {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: var(--text-size-large);
+    width: var(--letter-size);
+    height: var(--letter-size);
+    border: solid var(--letter-border-size) var(--main-border-color);
+    border-radius: var(--letter-border-radius);
+    margin: var(--letter-margin);
+}
+
+.heart {
+    margin: var(--heart-margin);
+}
+
+.input {
+    width: var(--input-width);
+    background-color: transparent;
+    margin: var(--input-margin);
+}
+
+.button {
+    cursor: var(--game-button-cursor);
+    text-align: center;
+    padding: var(--game-button-padding);
+    font-family: var(--game-button-font-family);
+    background-color: var(--game-button-color);
+    color: var(--text-color);
+    border: solid var(--main-border-color) var(--main-border-size);
+    width: var(--game-button-width);
+    height: var(--game-button-height);
+    border-radius: var(--game-button-border-radius);
+    font-size: var(--text-size);
+    margin: var(--game-button-margin);
+    transition: var(--game-button-transition);
+}
+
+.reloadButton {
+    cursor: var(--game-button-cursor);
+    text-align: center;
+    padding: var(--game-button-padding);
+    font-family: var(--game-button-font-family);
+    background-color: var(--game-button-color);
+    color: var(--text-color);
+    border: solid var(--main-border-color) var(--main-border-size);
+    width: var(--reload-button-width);
+    height: var(--reload-button-height);
+    border-radius: var(--game-button-border-radius);
+    font-size: var(--text-size);
+    margin: var(--game-button-margin);
+    transition: var(--game-button-transition);
+}
+
+.reloadButton:hover {
+    width: var(--reload-button-hover-width);
+    height: var(--reload-button-hover-height);
+    background-color: var(--game-button-hover-color);
+}
+
+.button:disabled {
+    cursor: var(--game-button-disabled-cursor);
+    font-family: var(--game-button-font-family);
+    background-color: var(--game-button-disabled-color);
+    color: var(--text-color);
+    border: solid var(--main-border-color) var(--main-border-size);
+}
+
+.button:enabled:hover {
+    width: var(--game-button-hover-width);
+    height: var(--game-button-hover-height);
+    background-color: var(--game-button-hover-color);
+}

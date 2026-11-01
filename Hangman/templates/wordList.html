@@ -1,0 +1,37 @@
+{% extends 'global.html' %}
+
+
+
+
+
+{% block head %} 
+
+{% endblock %}
+
+
+
+
+
+{% block body %}
+
+<div class="topbar"> 
+    <a href={{ url_for("home") }}> Home </a>
+    <a href={{ url_for("game") }}> Game</a>
+    <a class="selected" href={{ url_for("wordList") }}> Word List</a>
+</div>
+
+
+<button type="button" class="dropdownControl"> Word List <i class="material-icons"></i> </button>
+<div class="dropdownControlContent left-align">
+    {% for word in wordList %}
+    <p class="text-important"> • {{word}} </p>
+    {% endfor %}
+</div>
+
+<script type="module">
+    import { createDropDown } from "{{ url_for('static', filename='js/common.mjs') }}";
+
+    createDropDown();
+</script>
+
+{% endblock %}
